@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Content } from 'react-mdl';
+import Main from './components/main.js';
+import {Link} from 'react-router-dom';
+
 
 
 function App() {
@@ -11,12 +14,13 @@ function App() {
     <Layout style={{background: 'url(https://i.imgur.com/QIrgvF7.png) center / cover'}}>
         <Header className="header" title="Afreen Azfar ">
             <Navigation>
-                <a href="/">About Me</a>
-                <a href="/">Projects</a>
-                <a href="/">Progress</a>
-                <a href="/">Link</a>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/">Link</Link>
             </Navigation>
         </Header>
+        <Main />
         {/* <Drawer title="Afreen">
             <Navigation>
                 <a href="/">Link</a>
