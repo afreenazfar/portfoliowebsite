@@ -47,17 +47,17 @@ a {
 } */
 
 .avatarImg {
-  height: 12%;
-  position: absolute;
-  margin-left: -66px;
-  margin-top: -6px;
+  height: 13em;
+  position: relative;
+  float: left;
+  padding-left: 100px;
  
 }
 
 .banner-text {
   background-color: white;
   opacity: .8;
-  width:70%;
+  width:65%;
   margin: auto;
   border-radius:10px;
 

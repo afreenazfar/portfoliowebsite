@@ -5,9 +5,12 @@ class LandingPage extends Component {
     render() {
         return(
             <div style={{width:'100%', margin:'auto'}}>
+                 
                 <Grid className="landing-grid">
+                     
                     <Cell col={12}> 
                     <div className="banner-text">
+                    <img src="https://i.imgur.com/jbgXIMg.png" alt="avatar" className="avatarImg"/> 
                         <h1>MSc(Biology), PGCertIT</h1>
                         <p>HTML | CSS | JavaScript | React | Java | SQL | Git</p>
                         <div className="social-links" ></div>

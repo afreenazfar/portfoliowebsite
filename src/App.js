@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Content } from 'react-mdl';
+import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
 import Main from './components/main.js';
 import {Link} from 'react-router-dom';
 
@@ -14,23 +14,23 @@ function App() {
     <Layout style={{background: 'url(https://i.imgur.com/QIrgvF7.png) center / cover'}}>
        
        <Header className="header" title="Afreen Azfar">
-       <img src="https://i.imgur.com/lCdF4md.jpg[/img]" alt="avatar" className="avatarImg"/>  
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/">Landing</Link>
             </Navigation>
-        </Header>
+        </Header> 
         <Main />
-        {/* <Drawer title="Afreen">
+        <Drawer title="Afreen Azfar">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/">Landing</Link>
+                
             </Navigation>
-        </Drawer> */}
+        </Drawer>
         <Content />
     </Layout>
 </div>
