@@ -13,12 +13,11 @@ function App() {
 <div style={{height: '550px', width: 'auto',  position: 'relative'}}>
     <Layout style={{background: 'url(https://i.imgur.com/QIrgvF7.png) center / cover'}}>
        
-       <Header className="header" title="Afreen Azfar">
+       <Header className="header" title={<Link style={{textDecoration:'none'}} to="/"> Afreen Azfar  </Link>} >
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
-                <Link to="/">Landing</Link>
             </Navigation>
         </Header> 
         <Main />

@@ -99,3 +99,7 @@ a {
 .landing-grid {
   text-align: center;
 }
+
+.projects-grid {
+  display: flex;
+}
