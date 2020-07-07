@@ -40,12 +40,13 @@ a {
 
 
 .avatarImg {
-  height: 13em;
+  height: 14em;
   position: relative;
   float: left;
   z-index: 1; 
-  padding-left: 10px;
-  padding-top: 10px;
+  padding-left: 6vh;
+  padding-top: 4vh;
+  
 }
 
 .banner-text {
@@ -61,7 +62,7 @@ a {
 }
 
 .banner-text h1 {
-  font-size: 30px;
+  /* font-size: 30px; */
   font-weight: lighter;
   font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
@@ -108,12 +109,3 @@ a {
   display: flex;
 }
 
-
-  
-
-
-
-
-.listSpan {
-justify-content: left;
-}
