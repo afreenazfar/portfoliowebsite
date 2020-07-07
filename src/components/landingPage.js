@@ -4,7 +4,7 @@ import { Grid, Cell } from 'react-mdl';
 class LandingPage extends Component {
     render() {
         return(
-            <div style={{width:'100%', marginTop:'60px'}}>
+            <div style={{width:'100%', margin:'auto'}}>
                  
                 <Grid className="landing-grid">
                      
@@ -17,7 +17,7 @@ class LandingPage extends Component {
                         <div className="social-links" ></div>
                         {/*LinkedIn */}
                         <a href="https://www.linkedin.com/in/afreen-azfar?originalSubdomain=nz" rel="noopener noreferrer" target="_blank"> 
-                        <i className="fa fa-linkedin-square" aria-hidden="true" /></a>
+                        <i className="fa fa-linkedin-square" aria-hidden="true" /> </a>
 
                         {/*GitHub */}
                         <a href="https://github.com/afreenazfar" rel="noopener noreferrer" target="_blank"> 

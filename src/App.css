@@ -37,14 +37,7 @@ a {
   color: #61dafb;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+
 
 .avatarImg {
   height: 13em;
@@ -59,9 +52,11 @@ a {
   background-color: white;
   opacity: .8;
   width:65%;
-  margin: auto;
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
   border-radius:10px;
-  
 
 }
 
@@ -74,11 +69,6 @@ a {
  
 }
 
-/* .banner-text hr {
-  border-top: 2px dotted black;
-  width: 50%;
-  margin: auto;
-} */
 
 .banner-text p {
   font-size: 20px;
@@ -101,47 +91,28 @@ a {
 
 .landing-grid {
   text-align: center;
+  background-image: url("https://i.imgur.com/QIrgvF7.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .projects-grid {
   display: flex;
 }
 
-/* .todo-list {
-  background-color: white;
 
-  width: 30% !important; */
-  /* align-content: left !important; */
-  
-  /* box-shadow:
-  /* The top layer shadow
-      0 1px 1px rgba(0,0,0,0.15),
-          /* The second layer */
-      /* 0 10px 0 -5px #eee,
-          /* The second layer shadow */
-      /* 0 10px 1px -4px rgba(0,0,0,0.15), */
-          /* The third layer */
-      /* 0 20px 0 -10px #eee, */
-          /* The third layer shadow */
-      /* 0 20px 1px -9px rgba(0,0,0,0.15);  */
-  /* padding: 30px;
-} */
-
-/* .todo-item {
   
 
-  border-bottom: 1px solid #cecece;
-  font-family: Roboto, sans-serif;
-  font-weight: 100;
-  font-size: 15px;
-  color: black;
 
-  background-color: white;
-  opacity: .8;
-  width:30%;
-  margin: auto;
-  border-radius:10px;
-} */
+
 
 .listSpan {
 justify-content: left;

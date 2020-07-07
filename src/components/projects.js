@@ -10,7 +10,7 @@ class Projects extends Component {
     toggleCategories() {
         if(this.state.activeTab === 0) {
         return  (
-            <div className="projects-grid">
+            <div className="projects-grid landing-grid">
                 {/* project 1*/ }
             <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
             <CardTitle style= {{color: 'black', height:'170px', background:'url(https://i.imgur.com/pSk1YOw.png) center/cover'}} > Portfolio Website </CardTitle>
@@ -60,6 +60,7 @@ class Projects extends Component {
         )
     }  else if (this.state.activeTab === 1) {
     return (
+<div className="projects-grid landing-grid">
         <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
             <CardTitle style= {{color: 'black', height:'170px', background:'url(https://i.imgur.com/ompECmz.png) center/cover'}} > Group </CardTitle>
             <CardText> 
@@ -74,6 +75,7 @@ class Projects extends Component {
                 <IconButton name="share" />
             </CardMenu>
             </Card>
+            </div>
      )
     }
 }
