@@ -50,8 +50,9 @@ a {
   height: 13em;
   position: relative;
   float: left;
-  padding-left: 100px;
- 
+  z-index: 1; 
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .banner-text {
@@ -60,7 +61,7 @@ a {
   width:65%;
   margin: auto;
   border-radius:10px;
-
+  
 
 }
 
@@ -69,7 +70,8 @@ a {
   font-weight: lighter;
   font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
-
+  padding-bottom: 0px;
+ 
 }
 
 /* .banner-text hr {
@@ -94,6 +96,7 @@ a {
   font-size: 40px;
   padding: 15px;
   margin-top: -15px;
+  color: black;
 }
 
 .landing-grid {
@@ -102,4 +105,44 @@ a {
 
 .projects-grid {
   display: flex;
+}
+
+/* .todo-list {
+  background-color: white;
+
+  width: 30% !important; */
+  /* align-content: left !important; */
+  
+  /* box-shadow:
+  /* The top layer shadow
+      0 1px 1px rgba(0,0,0,0.15),
+          /* The second layer */
+      /* 0 10px 0 -5px #eee,
+          /* The second layer shadow */
+      /* 0 10px 1px -4px rgba(0,0,0,0.15), */
+          /* The third layer */
+      /* 0 20px 0 -10px #eee, */
+          /* The third layer shadow */
+      /* 0 20px 1px -9px rgba(0,0,0,0.15);  */
+  /* padding: 30px;
+} */
+
+/* .todo-item {
+  
+
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: black;
+
+  background-color: white;
+  opacity: .8;
+  width:30%;
+  margin: auto;
+  border-radius:10px;
+} */
+
+.listSpan {
+justify-content: left;
 }
