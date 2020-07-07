@@ -11,6 +11,7 @@ class LandingPage extends Component {
                     <Cell col={12}> 
                     <div className="banner-text">
                     <img src="https://i.imgur.com/jbgXIMg.png" alt="avatar" className="avatarImg"/> 
+                        <h2 style={{paddingTop:'15px' , paddingBottom:'-50px'}}>Afreen Azfar</h2> 
                         <h1>MSc (Biology), PGCert (Information Technology)</h1>
                         <p>HTML | CSS | JavaScript | React | Java | SQL | Git</p>
                         <div className="social-links" ></div>

@@ -11,8 +11,8 @@ function App() {
     <div className="App">
     {/* Uses a transparent header that draws on top of the layout's background */}
 <div style={{height: '550px', width: 'auto',  position: 'relative'}}>
-    <Layout style={{background: 'url(https://i.imgur.com/QIrgvF7.png) center / cover'}}>
-       
+    
+       <Layout style={{background: 'url(https://i.imgur.com/QIrgvF7.png) center / cover'}}>
        <Header className="header" title={<Link style={{textDecoration:'none'}} to="/"> Afreen Azfar  </Link>} >
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
@@ -21,6 +21,7 @@ function App() {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header> 
+        
         <Main />
         <Drawer title="Afreen Azfar">
             <Navigation>
