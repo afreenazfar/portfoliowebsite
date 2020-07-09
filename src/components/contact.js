@@ -18,7 +18,7 @@ import {List, ListItem, ListItemContent, Grid, Cell} from 'react-mdl';
                           <ListItemContent> <i className="fa fa-home" style={{fontSize: '30px'}} aria-hidden="true"/>Hamilton, New Zealand</ListItemContent>
                         </ListItem> 
                         <ListItem>
-                          <ListItemContent>  <a href="mailto:afreen.azfar@gmail.com" rel="noopener nonreferrer" target="_blank">
+                          <ListItemContent>  <a rel="noopener noreferrer" href="mailto:afreen.azfar@gmail.com" target="_blank">
                                              <i className="fa fa-envelope" aria-hidden="true" style={{fontSize: '25px'}} />
                                             </a> afreen.azfar@gmail.com
                           </ListItemContent>

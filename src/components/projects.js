@@ -18,7 +18,7 @@ class Projects extends Component {
                 I created this website to learn and create my first React app.  
             </CardText>
             <CardActions border>
-            <a href="https://github.com/afreenazfar/portfoliowebsite" rel="noopener nonreferrer" target="_blank">
+            <a href="https://github.com/afreenazfar/portfoliowebsite" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub</Button>
                                     </a>
             </CardActions>
@@ -34,7 +34,7 @@ class Projects extends Component {
             Expression of TNF- α at mRNA level in Thp-1 cells exposed to LPS and HSP60: Possible impact on diabetic vascular inflammation  
             </CardText>
             <CardActions border>
-            <a href="https://hdl.handle.net/10289/12106" rel="noopener nonreferrer" target="_blank">
+            <a rel="noopener noreferrer" href="https://hdl.handle.net/10289/12106"  target="_blank">
                                         <Button colored>Thesis</Button>
                                     </a>
             </CardActions>
@@ -67,7 +67,7 @@ class Projects extends Component {
             text1
             </CardText>
             <CardActions border>
-            <a href="https://hdl.handle.net/10289/12106" rel="noopener nonreferrer" target="_blank">
+            <a rel="noopener noreferrer" href="https://hdl.handle.net/10289/12106"  target="_blank">
                                         <Button colored>text2</Button>
                                     </a>
             </CardActions>
