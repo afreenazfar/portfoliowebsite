@@ -11,18 +11,27 @@ class ToDo extends Component {
             <Cell col={12}> 
             <div className="banner-text">
                 <h4 style={{paddingTop:'3vh'}}>To Do</h4>
-            <List>
+            <List style={{color:'black'}}>
             <ListItem>
-              <ListItemContent> 1. Add projects that I made in PGCert</ListItemContent>
+              <ListItemContent style={{textAlign:'left', lineHeight:'4vh'}}> I want to update this website as I continue to learn new things. Here are a few ideas that I am working on / want to work on in the near future.  
+              </ListItemContent>
+             </ListItem>
+            <ListItem>
+              <ListItemContent> 1. Add code to make this website mobile friendly
+              </ListItemContent>
+             </ListItem>
+            <ListItem>
+              <ListItemContent> 2. Add projects that I made in PGCert</ListItemContent>
             </ListItem> 
             <ListItem>
-              <ListItemContent> 2. Add a 'currently reading' tab
+              <ListItemContent> 3. Add a 'currently reading' tab
               </ListItemContent>
              </ListItem>
              <ListItem>
-              <ListItemContent> 3. Add a recipes tab
+              <ListItemContent> 4. Add a recipes tab
               </ListItemContent>
              </ListItem>
+             
              
              </List>
             </div>
