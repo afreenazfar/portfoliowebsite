@@ -5,6 +5,8 @@ class Projects extends Component {
     constructor(props) {
         super(props);
         this.state = {activeTab:0};
+
+        
     }
 
     toggleCategories() {
@@ -60,7 +62,7 @@ class Projects extends Component {
         )
     }  else if (this.state.activeTab === 1) {
     return (
-<div className="projects-grid landing-grid">
+<div className="projects-grid landing-grid" >
         <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
             <CardTitle style= {{color: 'black', height:'170px', background:'url(https://i.imgur.com/ompECmz.png) center/cover'}} > Group </CardTitle>
             <CardText> 
@@ -85,8 +87,8 @@ class Projects extends Component {
         return(
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-                    <Tab>Personal</Tab>
-                    <Tab>Group</Tab>
+                    <Tab style={{zIndex:'10'}}>Personal</Tab>
+                    <Tab style={{zIndex:'10'}}>Group</Tab>
                 </Tabs>
 
                
