@@ -46,18 +46,20 @@ class Projects extends Component {
             </Card>
             
              {/* project 3*/ }
-            {/* <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-            <CardTitle style= {{color: 'black', height:'170px', background:'url(https://i.imgur.com/pSk1YOw.png) center/cover'}} > React project 1 </CardTitle>
+            <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+            <CardTitle style= {{color: 'black', height:'170px', background:'url(https://i.imgur.com/GhRklS4.png) center/cover'}} > Bulls and Cows </CardTitle>
             <CardText> 
-                this is random text  
+                Bulls and Cows game build in Java with the requirement of having different classes. Game can be played using numbers or letters
             </CardText>
             <CardActions border>
-                <Button colored>Github</Button>
+            <a rel="noopener noreferrer" href="https://gitlab.com/waikato_aa253/industry-challenge-03"  target="_blank">
+                                        <Button colored>GitLab</Button>
+                                    </a>
             </CardActions>
             <CardMenu style={{color :'white'}}>
                 <IconButton name="share" />
             </CardMenu>
-            </Card>  */}
+            </Card> 
             </div>
         )
     }  else if (this.state.activeTab === 1) {
