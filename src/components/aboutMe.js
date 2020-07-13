@@ -26,6 +26,10 @@ class AboutMe extends Component {
                         {/*Twitter */}
                         {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank"> 
                         <i className="fa fa-twitter-square" aria-hidden="true" /></a> */}
+
+                        {/*GitLab */}
+                        <a href="https://gitlab.com/waikato_aa253" rel="noopener noreferrer" target="_blank"> 
+                        <i className="fa fa-gitlab" aria-hidden="true" /></a>
                 </div>
                 </Cell>
             </Grid>
