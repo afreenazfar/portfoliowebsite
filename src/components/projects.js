@@ -68,11 +68,11 @@ class Projects extends Component {
         <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
             <CardTitle style= {{color: 'black', height:'170px', background:'url(https://i.imgur.com/ompECmz.png) center/cover'}} > Group </CardTitle>
             <CardText> 
-            text1
+            Project title
             </CardText>
             <CardActions border>
             <a rel="noopener noreferrer" href="https://hdl.handle.net/10289/12106"  target="_blank">
-                                        <Button colored>text2</Button>
+                                        <Button colored>Project desc.</Button>
                                     </a>
             </CardActions>
             <CardMenu style={{color :'white'}}>
