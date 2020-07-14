@@ -66,13 +66,13 @@ class Projects extends Component {
     return (
 <div className="projects-grid landing-grid" >
         <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-            <CardTitle style= {{color: 'black', height:'170px', background:'url(https://i.imgur.com/ompECmz.png) center/cover'}} > Group </CardTitle>
+            <CardTitle style= {{color: 'black', height:'170px', background:'url(https://i.imgur.com/ompECmz.png) center/cover'}} > Project title </CardTitle>
             <CardText> 
-            Project title
+            Project desc.
             </CardText>
             <CardActions border>
             <a rel="noopener noreferrer" href="https://hdl.handle.net/10289/12106"  target="_blank">
-                                        <Button colored>Project desc.</Button>
+                                        <Button colored>Link</Button>
                                     </a>
             </CardActions>
             <CardMenu style={{color :'white'}}>
