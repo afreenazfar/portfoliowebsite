@@ -9,12 +9,13 @@ class LandingPage extends Component {
                 <Grid className="landing-grid" >
                      
                     <Cell col={12}> 
-                    <div className="banner-text">
-                    <div className="lp-text" style={{zIndex:'1'}}>
+                    <div className="banner-text" style={{width:'50%'}}>
                         <img src="https://i.imgur.com/yIK3G5i.png" alt="avatar" className="avatarImg"/> 
-                        <h2 style={{paddingTop:'3vh' , paddingBottom:'-50px'}}>Afreen Azfar</h2> 
-                        <h4>MSc (Biology), PGCert (Information Technology)</h4>
-                        <p>HTML | CSS | JavaScript | React | Java | SQL | Git</p>
+                    <div className="lp-text" style={{zIndex:'1', opacity:'1'}}>
+                        
+                        <h1>Afreen Azfar</h1> 
+                        <h5 >MSc (Biology), PGCert (Information Technology)</h5>
+                        <h5 style={{marginBottom:'20px'}}>HTML | CSS | JavaScript | React | Java | SQL | Git</h5>
                         
                         {/* <div className="social-links"></div> */}
                         {/*LinkedIn */}

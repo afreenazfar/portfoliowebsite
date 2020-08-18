@@ -66,7 +66,7 @@ class Projects extends Component {
     return (
 <div className="projects-grid landing-grid" >
         <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-            <CardTitle style= {{color: 'black', height:'170px', background:'url(https://i.imgur.com/ompECmz.png) center/cover'}} > Project title </CardTitle>
+            {/* <CardTitle style= {{color: 'black', height:'170px', background:'url(https://i.imgur.com/ompECmz.png) center/cover'}} > Project title </CardTitle>
             <CardText> 
             Project desc.
             </CardText>
@@ -77,7 +77,7 @@ class Projects extends Component {
             </CardActions>
             <CardMenu style={{color :'white'}}>
                 <IconButton name="share" />
-            </CardMenu>
+            </CardMenu> */}
             </Card>
             </div>
      )
