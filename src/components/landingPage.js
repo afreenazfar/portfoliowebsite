@@ -14,6 +14,7 @@ class LandingPage extends Component {
                     <div className="lp-text" style={{zIndex:'1', opacity:'1'}}>
                         
                         <h1>Afreen Azfar</h1> 
+                        <h5 style={{fontWeight:'bold'}}>CS Engineer @ Kami</h5>
                         <h5 >MSc (Biology), PGCert (Information Technology)</h5>
                         <h5 style={{marginBottom:'20px'}}>HTML | CSS | JavaScript | React | Java | SQL | Git</h5>
                         
